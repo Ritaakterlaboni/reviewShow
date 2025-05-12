@@ -1,0 +1,46 @@
+*{
+    padding:0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+
+.container{
+    width:1170px;
+    padding:100px;
+    margin:0 auto;
+}
+.mainscreen{
+    width:600px;
+    height: 400px;
+    padding:100px;
+    background-color:azure;
+    /* border:1px solid black; */
+    box-shadow:  5px 5px 15px rgba(0, 0, 0, 0.3);
+    margin:0 auto;
+}
+
+#review_box::placeholder{
+    font-size: 18px;
+    opacity: 0.5;
+}
+
+#reset{
+
+    margin-right: 293px;
+    padding:10px 20px;
+}
+#submit{
+    margin-top: 50px;
+    padding:10px 20px;
+}
+#reviewshow{
+    width:200px;
+    height: 150px;
+    padding:20px;
+    border:1px solid black;
+    background-color: white;
+    margin-bottom: 20px;
+    display : none;
+}
